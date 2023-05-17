@@ -1,9 +1,4 @@
 
 # This is a band name generator
 
-def test():
-    print("Hello World!")
-    print("Hello world!\nHello World")
-
-
-test()
+print("Hello, " + input("What is your Middle Name?\n"))
