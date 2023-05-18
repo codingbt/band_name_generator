@@ -1,29 +1,17 @@
 
 # This is a band name generator
 
-name = input("What is your name?\n")
-address = input("What is you address?\n")
-age = input("How old are you?\n")
+# My Attempt
+print("This is a Band Name Generator!\n")
+hometown = input("What is the name of your hometown?\n")
+pet_name = input("What was the name of your fist pet?\n")
+band_name = hometown + pet_name
+print("\n")
+print(band_name)
 
+# Given Solution
 
-def new_line():
-    print("\n")
-
-
-new_line()
-
-
-def personal_info():
-    print(name)
-    print(address)
-    print(age)
-
-
-personal_info()
-
-new_line()
-
-# Nesting Variables Logic
-computer_name = input("What is the brand of your computer?\n")
-length = len(computer_name)
-print(length)
+print("This is a Band Name Generator!\n")
+city = input("What is the name of your hometown?\n")
+pet = input("What was the name of your fist pet?\n")
+print("The name of your band could be " + city + " " + pet)
